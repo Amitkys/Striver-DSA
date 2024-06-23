@@ -15,6 +15,7 @@ int main()
 
   // single node created
   Node* node1 = new Node(5);
+  Node* node2 = new Node(6);
   // printing data of the single node
   cout << node1 -> data << endl;  
 
