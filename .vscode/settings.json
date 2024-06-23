@@ -1,0 +1,60 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "*.tcc": "cpp",
+        "typeindex": "cpp",
+        "typeinfo": "cpp"
+    },
+    "workbench.colorCustomizations": {
+        "terminal.foreground": "#0ad2ed",
+        "terminal.background": "#060e09",
+        "activityBar.activeBackground": "#1a1a1a",
+        "activityBar.background": "#1a1a1a",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#606020",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#1a1a1a",
+        "statusBar.background": "#000000",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#1a1a1a",
+        "statusBarItem.remoteBackground": "#000000",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#000000",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#00000099",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    
+    "peacock.color": "black",
+    "workbench.colorTheme": "paddy-ultramarine-upright",
+    "editor.fontSize": "23",
+    "terminal.integrated.fontSize": 21,
+    "C_Cpp.default.includePath": ["C:\\MinGW\\include"],
+    "editor.fontFamily": "'Sometype Mono Regular'",
+    "terminal.integrated.fontFamily": "'Sometype Mono Regular'",
+    "terminal.integrated.letterSpacing": 2,
+    "terminal.integrated.fontWeight": "100",
+    // it is showing  file tab in editor
+    "workbench.editor.showTabs": "multiple",
+    "pomodoro.workTime": 25,
+    "pomodoro.soundIntervalNotification": 10,
+    "terminal.integrated.env.windows": {
+
+    },
+    "terminal.explorerKind": "external",
+    "liveServer.settings.port": 5501,
+    
+    // automatic curson on vs code
+    "code-runner.preserve Focus": false,
+    "code-runner.preserveFocus": false,
+
+
+
+    // removing auto suggestion
+
+  
+            
+}
