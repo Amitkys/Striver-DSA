@@ -22,7 +22,7 @@ void insertAtTail(Node* &tail, int data){
     // created a temp node
     Node* temp = new Node(data);
     tail -> next = temp;
-    tail = tail -> next;
+    tail = tail -> next; // which is temp
 }
 // traversing all node
 void print(Node* &head){
@@ -40,6 +40,7 @@ int main()
     Node* head = node1;
     Node* tail = node1;
 
+    insertAtHead(head, 100);
     insertAtTail(tail, 32);
     print(head);
 }
