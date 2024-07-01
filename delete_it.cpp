@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 class Node{
 public:
@@ -9,26 +9,32 @@ public:
         this -> next = nullptr;
     }
 };
-void insertAtHead(Node* &head, int data){
-    // creating new node for insertion
+void insertATHead(Node* &head, int data){
+    if(head == nullptr){
+        head = new Node(data);
+    }
+
     Node* temp = new Node(data);
     temp -> next = head;
     head = temp;
+
 }
-void print(Node* &head){
+void traverse(Node* &head){
+    if(head == nullptr){
+        cout << "Linkedlist is empty" << endl;
+        return;
+    }
     Node* temp = head;
     while(temp != nullptr){
         cout << temp -> data << " ";
         temp = temp -> next;
     }
     cout << endl;
+
 }
 int main(){
-    Node* node1 = new Node(100);
-    Node* head = node1;
-    Node* tail = node1;
-
-    insertAtHead(head, 56);
-    insertAtHead(head, 45);
-    print(head);
+  Node* head = new Node(45);
+  insertATHead(head, 34);
+  traverse(head);
+  
 }
